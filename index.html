@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div id="container">
+            <div class="main">
+                <div style="display: flex; justify-content: center">
+                    <input id="searchID" type="text" placeholder="Product ID..." />
+                </div>
+                <div class="btn">
+                    <button id="LIST">LIST</button><br />
+                    <button id="RETRIEVE">RETRIEVE</button><br />
+                    <button id="UPDATE">UPDATE</button><br />
+                </div>
+            </div>
+
+            <table id="table">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Product Name</th>
+                        <th>Description</th>
+                        <th>Price $</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+            <div style="display: flex; justify-content: center">
+                <div class="product" id="product">
+                    <div class="head">
+                        <div>Product ID</div>
+                        <div>Product Name</div>
+                        <div>Description</div>
+                        <div>Price</div>
+                    </div>
+                    <div class="value">
+                        <div id="PRODUCTID"></div>
+                        <div id="PRODUCTNAME"></div>
+                        <div id="DESCRIPTION"></div>
+                        <div>
+                            <input type="number" id="PRICE" oninput="this.style.width = ((this.value.length + 1) * 8) + 'px';" />
+                            <button id="UPDATEPRODUCT">Update</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+<script src="script.js"></script>

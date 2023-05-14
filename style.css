@@ -1,0 +1,115 @@
+body {
+    font-family: poppins;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+}
+
+#container {
+    width: 60%;
+}
+
+#table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 100%;
+    white-space: nowrap;
+    background-color: white;
+    border: none;
+    visibility: hidden;
+}
+
+td,
+th {
+    text-align: center;
+    padding: 8px;
+}
+
+th {
+    color: #ffffff;
+    background: #4fc3a1;
+}
+
+th:nth-child(odd) {
+    color: #ffffff;
+    background: #324960;
+}
+
+tr:nth-child(even) {
+    background: #f8f8f8;
+}
+
+.product {
+    display: flex;
+    justify-content: center;
+    border: solid 1px black;
+    padding: 50px;
+    width: 342px;
+    visibility: hidden;
+}
+
+.head {
+    text-align: center;
+    width: 120px;
+}
+
+.value {
+    text-align: center;
+    min-width: 220px;
+}
+
+#PRICE {
+    width: 50px;
+    min-width: 50px;
+    max-width: 150px;
+    text-align: left;
+    outline: none;
+}
+
+#UPDATEPRODUCT {
+    font-size: 12px;
+    color: white;
+    background-color: rgba(0, 0, 0);
+    border: none;
+    padding: 4px 9px 4px 9px;
+    border-radius: 12px;
+    transition: all 150ms;
+}
+
+button:active {
+    scale: 0.9;
+}
+
+#UPDATEPRODUCT:hover {
+    background-color: rgb(0, 255, 0, 0.7);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#searchID {
+    width: 185px;
+    padding: 7px 15px 7px 15px;
+    outline: none;
+    border: solid 1px;
+    border-radius: 4px;
+}
+
+.btn {
+    display: flexbox;
+    text-align: center;
+}
+
+.main button {
+    width: 220px;
+    margin: 5px 0 5px 0;
+    padding: 6px;
+    outline: none;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 2vh;
+}
