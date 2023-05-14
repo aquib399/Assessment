@@ -5,7 +5,7 @@
         "mongodb": "^5.5.0",
         "nodemon": "^2.0.22"
     },
-    "name": "tempo",
+    "name": "Internshala Assessment",
     "version": "1.0.0",
     "main": "app.js",
     "devDependencies": {},
